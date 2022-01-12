@@ -16,12 +16,16 @@ const App = () => {
           <header className="App-header">
         <div className="App-image">
           <div className='logo'>
-            <img src='https://i0.wp.com/luxenailboutique.com/wp-content/uploads/2018/07/header-flowers.png?resize=300%2C133' alt='flower' width="150" />
+
+          <a  href="Gallery"><img src="https://i0.wp.com/luxenailboutique.com/wp-content/uploads/2018/07/header-flowers.png?resize=300%2C133" title="insert title" alt="insert description here"/></a>
+
+           
+            
           </div>
           <div className='submenu'>
             <p className ='home'><Link to="/">Home </Link></p>
             <p className='services'><Link to='Services'>Services</Link></p>
-            <p className='gallery'><Link to='Gallery'>Gallery</Link></p>
+            <p className='services'><Link to='Gallery'></Link></p>
             <p className='events'><Link to='Events'>Events</Link></p>
             <p className='contact'><Link to='Contact'>Contact</Link></p>
             
@@ -40,7 +44,7 @@ const App = () => {
              <Route path="/Events">
             <Events/>
           </Route>
-        <Route path="/Gallery">
+          <Route path="/Gallery">
             <Gallery/>
           </Route>
              <Route path="/Services">
@@ -49,6 +53,8 @@ const App = () => {
           <Route path="/">
             <Nail/>
           </Route>
+          
+
         </Switch>
         </Router>
     </div>

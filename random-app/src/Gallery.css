@@ -1,0 +1,30 @@
+@font-face {
+    font-family:Love Ya Like A Sister;
+    src: url(https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap);
+}
+
+
+
+
+.galleryPage{
+    display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 15%;
+  text-align: left;
+  flex-flow: column wrap;
+
+}
+.reasons{
+    display: flex;
+    padding-bottom: 40px;
+}
+.list{
+    padding-right: 20%;
+    
+}
+
+h1,li{
+    font-family: 'Love Ya Like A Sister', cursive;
+}
