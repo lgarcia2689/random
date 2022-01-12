@@ -1,0 +1,33 @@
+   .App-header{
+    background-color: #FDE0CE;
+  }
+
+  .submenu{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #43312F;
+    padding-top: 4%;
+  }
+   
+  .logo{
+    text-align: center;  
+
+    padding-top: 2%;
+  }
+  .services:hover{
+    color: #e9b392;
+  }
+  .gallery:hover{
+    color: #e9b392;
+  }
+  .events:hover{
+    color: #e9b392;
+  }
+  .contact:hover{
+    color: #e9b392;
+  }
+  .home:hover{
+    color: #e9b392;
+  }
+  
