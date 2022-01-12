@@ -1,0 +1,78 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.logo{
+  align-content: center;
+  height: 40px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-body h1{
+  color: #43312F;
+}
+
+.App-body p{
+  color: gray;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.App-body2 {
+  background-color: #F5F1F0;
+  padding-top: 60px;
+}
+.App-body2 p{
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.App-body2 h1{
+  color: #43312F;
+}
+
+.App-body2 p{
+  color: gray;
+}
+.App-body2 h4{
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 360px;
+  text-align: center;
+}
+
+.ovals{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.App-body3{
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: left;
+  
+}
+.servicesList{
+  padding-left: 10%;
+}
+.App-body4{
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  text-align: left;
+}
+
+.partTypes{
+  padding-right: 10%;
+}
